@@ -17,18 +17,18 @@ const Header = () => {
         <header>
             <div className="header pb-4">
                 <div className="container">
-                    <nav className="navbar navbar-expand-md navbar-light row ms-auto">
+                    <nav className="navbar navbar-expand-sm navbar-light row ms-auto">
                         <div className="col-md-4">
-                            <Link className="navbar-brand d-none d-sm-block" href="#"><img style={{ width: '50px' }} src={logo} alt="" /> Bike Service
+                            <Link className="navbar-brand d-sm-block" href="#"><img style={{ width: '50px' }} src={logo} alt="" /> Bike Service
                             </Link>
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <button className="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                         </div>
 
 
                         <div className="col-md-8">
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div className="  d-sm-flex justify-content-end" id="">
                                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                     <li className="nav-item active">
                                         <Link className="nav-link fw-bold" to="">Home</Link>
